@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_kick"
+        android:icon="@drawable/ic_nav_kick"
+        android:title="@string/title_kick" />
+    <item
+        android:id="@+id/navigation_checkup"
+        android:icon="@drawable/ic_nav_checkup"
+        android:title="@string/title_checkup" />
+    <item
+        android:id="@+id/navigation_nutrition"
+        android:icon="@drawable/ic_nav_nutrition"
+        android:title="@string/title_nutrition" />
+    <item
+        android:id="@+id/navigation_alert"
+        android:icon="@drawable/ic_nav_alert"
+        android:title="@string/title_alert" />
+    <item
+        android:id="@+id/navigation_more"
+        android:icon="@drawable/ic_nav_more"
+        android:title="More" />
+</menu>

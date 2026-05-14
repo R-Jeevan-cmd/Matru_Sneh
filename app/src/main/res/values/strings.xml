@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Matru-Sneh</string>
+
+    <!-- Bottom Navigation -->
+    <string name="title_kick">Kick</string>
+    <string name="title_checkup">Checkup</string>
+    <string name="title_nutrition">Nutrition</string>
+    <string name="title_alert">Alert</string>
+    <string name="title_more">More</string>
+
+    <!-- Kick Counter -->
+    <string name="baby_kick_counter">Baby Kick Counter</string>
+    <string name="baby_kick_kannada">ಮಗುವಿನ ಒದೆತ</string>
+    <string name="todays_session">Today\'s Session</string>
+    <string name="kicks_recorded">kicks recorded</string>
+    <string name="tap">TAP</string>
+    <string name="this_hour">This Hour</string>
+    <string name="session_total">Session Total</string>
+    <string name="low_movement_warning">⚠ Baby movement is low. Contact ASHA worker immediately.</string>
+    <string name="this_week">This Week</string>
+    <string name="reset_session">Reset Today\'s Session</string>
+    <string name="status_good">Good</string>
+    <string name="status_low">Low</string>
+
+    <!-- Checkup -->
+    <string name="my_checkups">My Checkups</string>
+    <string name="checkups_kannada">ನನ್ನ ತಪಾಸಣೆಗಳು</string>
+    <string name="until_next_checkup">until next checkup</string>
+    <string name="all">All</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="completed">Completed</string>
+    <string name="overdue">Overdue!</string>
+    <string name="today">Today!</string>
+    <string name="days_remaining">%1$d days remaining</string>
+    <string name="checkup_name_hint">Checkup Name</string>
+    <string name="add_checkup">Add Checkup</string>
+    <string name="select_date">Select Date</string>
+
+    <!-- Nutrition -->
+    <string name="aaj_ka_aahar">Aaj ka Aahar</string>
+    <string name="aahar_kannada">ಇಂದಿನ ಆಹಾರ</string>
+    <string name="paani">Paani</string>
+    <string name="glasses_count">%1$d glasses</string>
+    <string name="ragi">Ragi</string>
+    <string name="greens">Greens</string>
+    <string name="pulses">Pulses</string>
+    <string name="milk">Milk/Curd</string>
+    <string name="fruits">Fruits</string>
+    <string name="quote_1">"A healthy mother makes a healthy baby."</string>
+    <string name="quote_2">"Good nutrition is the best gift for your baby."</string>
+
+    <!-- Health Alert -->
+    <string name="danger_signs_title">Danger Signs</string>
+    <string name="danger_signs_kannada">ಅಪಾಯದ ಚಿಹ್ನೆಗಳು</string>
+    <string name="emergency_numbers">Emergency Numbers</string>
+    <string name="send_alert">SEND ALERT</string>
+    <string name="call">Call</string>
+    <string name="immediate_doctor">Consult Doctor Immediately!</string>
+    <string name="call_108">Call 108</string>
+    <string name="call_asha">Call ASHA Worker</string>
+    <string name="alert_confirm_title">Send Emergency Alert?</string>
+    <string name="alert_confirm_msg">Are you sure you want to log these signs and send an alert?</string>
+
+    <!-- Danger Signs -->
+    <string name="sign_headache">Severe Headache</string>
+    <string name="sign_vision">Blurred Vision</string>
+    <string name="sign_swelling">Swelling (Hands/Face)</string>
+    <string name="sign_bleeding">Vaginal Bleeding</string>
+    <string name="sign_no_movement">Decreased Baby Movement</string>
+    <string name="sign_fever">High Fever</string>
+    <string name="sign_breathing">Difficulty Breathing</string>
+    <string name="sign_stomach_pain">Severe Stomach Pain</string>
+
+    <!-- Vitals -->
+    <string name="vitals_tracker">Vitals Tracker</string>
+    <string name="vitals_kannada">ಆರೋಗ್ಯ ಮಾಪನ</string>
+    <string name="weight_kg">Weight (kg)</string>
+    <string name="systolic_bp">Systolic BP (upper)</string>
+    <string name="diastolic_bp">Diastolic BP (lower)</string>
+    <string name="save_vitals">Save Vitals</string>
+    <string name="bp_status_normal">Normal ✓</string>
+    <string name="bp_status_high">HIGH ⚠ Please consult doctor</string>
+    <string name="high_bp_alert_title">High Blood Pressure Detected!</string>
+    <string name="high_bp_alert_msg">Please contact your doctor or call 104.</string>
+
+    <!-- AI Tip -->
+    <string name="ai_health_guide">AI Health Guide</string>
+    <string name="ai_guide_kannada">AI ಆರೋಗ್ಯ ಮಾರ್ಗದರ್ಶಿ</string>
+    <string name="todays_tip">Today\'s Tip</string>
+    <string name="powered_by_gemini">Powered by Gemini AI</string>
+    <string name="get_new_tip">Get New Tip</string>
+    <string name="english">English</string>
+    <string name="kannada">ಕನ್ನಡ</string>
+    <string name="unable_to_load_tip">Unable to load tip. Check your internet connection.</string>
+
+    <!-- Mood & Sleep -->
+    <string name="mood_sleep">Mood &amp; Sleep</string>
+    <string name="mood_sleep_kannada">ಮನಸ್ಥಿತಿ ಮತ್ತು ನಿದ್ದೆ</string>
+    <string name="how_are_you_feeling">How are you feeling today?</string>
+    <string name="feeling_kannada">ಇಂದು ಹೇಗಿದ್ದೀರಿ?</string>
+    <string name="how_many_hours_sleep">How many hours did you sleep?</string>
+    <string name="sleep_kannada">ಎಷ್ಟು ಗಂಟೆ ನಿದ್ದೆ ಮಾಡಿದಿರಿ?</string>
+    <string name="sleep_hours_count">%1$.1f hours</string>
+    <string name="poor">Poor 😴</string>
+    <string name="okay">Okay 😶</string>
+    <string name="good">Good 😊</string>
+    <string name="sleep_recommendation">Pregnant women need 8-10 hours of sleep</string>
+    <string name="notes_hint">Any notes for today? (optional)</string>
+    <string name="save_journal">Save Journal Entry</string>
+    <string name="avg_mood">Avg Mood: %1$s %2$.1f</string>
+    <string name="avg_sleep">Avg Sleep: %1$.1f hrs</string>
+    <string name="low_sleep_warning">Low sleep can affect your baby. Try to rest more.</string>
+    <string name="low_mood_warning">You seem to be feeling low lately. Please talk to your ASHA worker or a trusted person.</string>
+
+    <!-- Export -->
+    <string name="export_health_card">Export Health Card</string>
+    <string name="mothers_name">Mother\'s Name</string>
+    <string name="pregnancy_week">Pregnancy Week</string>
+    <string name="generate_pdf">Generate PDF</string>
+    <string name="pdf_saved">PDF saved! Share?</string>
+
+    <!-- Onboarding -->
+    <string name="get_started">Get Started</string>
+    <string name="next">Next</string>
+</resources>

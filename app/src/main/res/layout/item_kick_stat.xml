@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingVertical="12dp">
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Monday"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvKicksPerHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="12 kicks/hr"
+        android:textColor="@color/gray" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/statusChip"
+        style="@style/Widget.Material3.Chip.Assist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/status_good"
+        app:chipBackgroundColor="#E8F5E9"
+        app:chipStrokeWidth="0dp"
+        app:chipMinTouchTargetSize="0dp"
+        android:textColor="#2E7D32" />
+
+</LinearLayout>
